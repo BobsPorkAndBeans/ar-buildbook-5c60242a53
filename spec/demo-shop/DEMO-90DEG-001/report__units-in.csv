@@ -246,6 +246,17 @@ Engine math,Input,"Combustion chamber volume, nominal",,,,,50 cc,,spec,"Cylinder
 Engine math,Input,Piston dish (+) / dome (−) volume,,,,,2 cc,,spec,"Rotating assembly › Piston › Dish (+) / dome (−) volume, incl. valve reliefs"
 Engine math,Input,"Piston top land volume (above top ring, below piston deck)",,,,,0.6 cc,,spec,"Rotating assembly › Piston › Top land volume (above top ring, below piston deck)"
 Engine math,Input,Design rpm,,,,,7800,,spec,Block › Engine configuration › Design rpm
+Crank balance,Weight,Piston (bare),,,,,412.0 g,,computed,spec: Piston line item
+Crank balance,Weight,Wrist pin,,,,,98.0 g,,computed,spec: Piston line item
+Crank balance,Weight,Pin locks (pair),,,,,1.2 g,,computed,spec: Piston line item
+Crank balance,Weight,Ring set,,,,,24.6 g,,computed,spec: Ring pack line item
+Crank balance,Weight,Rod small end,,,,,191.0 g,,computed,spec: Connecting rod line item
+Crank balance,Weight,Rod big end,,,,,446.0 g,,computed,spec: Connecting rod line item
+Crank balance,Weight,Rod bearing shells (pair),,,,,41.0 g,,computed,spec: rod bearing shell pair (nominal)
+Crank balance,Result,"Rotating, per rod",,,,,487.0 g,,computed,big end + bearing shells
+Crank balance,Result,"Reciprocating, per cylinder",,,,,726.8 g,,computed,small end + piston + pin + locks + rings
+Crank balance,Result,Bobweight,,,,,"1,705.8 g",,computed,2 rods x rotating + 2 rods x 50% x reciprocating + 5 g oil
+Crank balance,Result,Crank prepped bobweight,,,,,"1,710.0 g",,spec,bobweight 4.2 g under
 Revision history,Rev 1,Revision,,,,,2026-11-10T18:28:57Z,,,author EXAMPLE DATA | Released (EXAMPLE DATA)
 Revision history,Rev 2,Revision,,,,,2026-11-10T18:28:57Z,,add_alternate_pn,author EXAMPLE DATA | EXAMPLE DATA: DEMO-CB-3 back-ordered; DEMO-CB-3A approved as alternate for #3. DEMO-CAM-276 approved as an alternate cam.
 Revision history,Rev 2,Valvetrain / Camshaft / Alternates: PN,line_items/camshaft/pn_alternates/pn,,DEMO-CAM-276,,,,added,

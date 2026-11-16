@@ -423,3 +423,15 @@ Oiling system,Pump drive,Belt PN,,,DEMO-PDB-600,,,,unconfirmed,
 Oiling system,Pump drive,Belt length,,,609.6,,,mm,unconfirmed,
 Oiling system,Oil pan,(item),,,1,,,ea,open,Tick 1 confirmation
 Oiling system,Oil pan,PN,,,DEMO-PAN-DRY,,,,unconfirmed,
+Crank balance,Weight,Piston (bare),,,,,,,missing,piston (bare) (Piston line item or weigh sheet)
+Crank balance,Weight,Wrist pin,,,,,,,missing,wrist pin (Piston line item or weigh sheet)
+Crank balance,Weight,Pin locks (pair),,,,,,,missing,pin locks (pair) (Piston line item or weigh sheet)
+Crank balance,Weight,Ring set,,,,,,,missing,ring set (Ring pack line item or weigh sheet)
+Crank balance,Weight,Rod small end,,,,,,,missing,rod small end (Connecting rod line item or weigh sheet)
+Crank balance,Weight,Rod big end,,,,,,,missing,rod big end (Connecting rod line item or weigh sheet)
+Crank balance,Weight,Rod bearing shells (pair),,,,,,,missing,rod bearing shell weights
+Crank balance,Result,"Rotating, per rod",,,,,,,missing,big end + bearing shells
+Crank balance,Result,"Reciprocating, per cylinder",,,,,,,missing,small end + piston + pin + locks + rings
+Crank balance,Result,Bobweight,,,,,,,missing,missing: piston (bare) (Piston line item or weigh sheet); wrist pin (Piston line item or weigh sheet); pin locks (pair) (Piston line item or weigh sheet); ring set (Ring pack line item or weigh sheet); rod small end (Connecting rod line item or weigh sheet); rod big end (Connecting rod line item or weigh sheet); rod bearing shell weights
+Crank balance,Result,Crank prepped bobweight,,,,,"1,710.0 g",,spec,
+Crank balance,Flag,Missing bearing weights,,,,,,,FAIL,"Weigh the rod bearing shells (both halves). They spin with the crank, so they count fully in the bobweight."

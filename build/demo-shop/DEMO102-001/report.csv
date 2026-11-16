@@ -973,3 +973,25 @@ Engine math,Input,Piston dish (+) / dome (−) volume,,,2 cc,,2 cc,,spec target,
 Engine math,Input,"Piston top land volume (above top ring, below piston deck)",,,0.6 cc,,0.6 cc,,spec target,"Rotating assembly › Piston › Top land volume (above top ring, below piston deck); not measured on this build (target used)"
 Engine math,Input,"Piston net volume, poured",,,2.6 cc,,2.6 cc,,"measured, mean of 8 positions",Rotating assembly › Piston › Piston net volume (pour: dish/dome + reliefs + top land); target 2.6 cc
 Engine math,Input,Design rpm,,,7800,,7800,,spec target,Block › Engine configuration › Design rpm; not measured on this build (target used)
+Crank balance,Weight,Piston (bare),,,,,411.8 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Wrist pin,,,,,98.1 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Pin locks (pair),,,,,1.2 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Ring set,,,,,24.6 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Rod small end,,,,,190.8 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Rod big end,,,,,446.2 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Rod bearing shells (pair),,,,,41.1 g,,computed,"weigh sheet, average of 8"
+Crank balance,Result,"Rotating, per rod",,,,,487.3 g,,computed,big end + bearing shells
+Crank balance,Result,"Reciprocating, per cylinder",,,,,726.5 g,,computed,small end + piston + pin + locks + rings
+Crank balance,Result,Bobweight,,,,,"1,706.1 g",,computed,2 rods x rotating + 2 rods x 50% x reciprocating + 5 g oil
+Crank balance,Result,Crank prepped bobweight,,,,,"1,710.0 g",,spec,bobweight 3.9 g under
+Crank balance,Match,Pistons spread,,,,,0.3 g,,pass,allowed 0.5 g
+Crank balance,Match,Rod big ends spread,,,,,0.3 g,,pass,allowed 0.5 g
+Crank balance,Match,Rod small ends spread,,,,,0.3 g,,pass,allowed 0.5 g
+Crank balance,Match,Rods (total) spread,,,,,0.0 g,,recorded,
+Crank balance,Match,Reciprocating sets spread,,,,,0.4 g,,recorded,
+Crank balance,Balance card,Front imbalance,,,,,"0.4 g at 3.00 in radius, 197°",,pass,"initial 12.6 g at 3.00 in radius, 214°"
+Crank balance,Balance card,Rear imbalance,,,,,"0.3 g at 3.00 in radius, 62°",,pass,"initial 8.4 g at 3.00 in radius, 41°"
+Crank balance,Balance card,Correction,,,,,-12.4 g,,recorded,Drilled 2 holes Front CW #1 5/8 in dia x 0.38 in deep
+Crank balance,Balance card,Correction,,,,,-8.2 g,,recorded,Drilled 1 hole Rear CW #8 5/8 in dia x 0.50 in deep
+Crank balance,Balance card,Balanced by,,,,,EXAMPLE DATA (Demo Race Shop),,recorded,2026-11-09 Demo dynamic balancer (EXAMPLE)
+Crank balance,Balance card,Attachment,,,,,"Balancer printout (sample PDF, EXAMPLE DATA)",,attached,DEMO102-001_balance_card_EXAMPLE.pdf

@@ -423,3 +423,21 @@ Oiling system,Pump drive,Belt PN,,,DEMO-PDB-600,,,,unconfirmed,
 Oiling system,Pump drive,Belt length,,,24,,,in,unconfirmed,
 Oiling system,Oil pan,(item),,,1,,,ea,open,Tick 1 confirmation
 Oiling system,Oil pan,PN,,,DEMO-PAN-DRY,,,,unconfirmed,
+Crank balance,Weight,Piston (bare),,,,,411.9 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Wrist pin,,,,,98.1 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Pin locks (pair),,,,,1.2 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Ring set,,,,,24.6 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Rod small end,,,,,190.8 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Rod big end,,,,,446.2 g,,computed,"weigh sheet, average of 8"
+Crank balance,Weight,Rod bearing shells (pair),,,,,,,missing,rod bearing shell weights
+Crank balance,Result,"Rotating, per rod",,,,,,,missing,big end + bearing shells
+Crank balance,Result,"Reciprocating, per cylinder",,,,,726.6 g,,computed,small end + piston + pin + locks + rings
+Crank balance,Result,Bobweight,,,,,,,missing,missing: rod bearing shell weights
+Crank balance,Result,Crank prepped bobweight,,,,,"1,710.0 g",,spec,
+Crank balance,Match,Pistons spread,,,,,0.9 g,,FAIL,allowed 0.5 g
+Crank balance,Match,Rod big ends spread,,,,,0.2 g,,pass,allowed 0.5 g
+Crank balance,Match,Rod small ends spread,,,,,0.2 g,,pass,allowed 0.5 g
+Crank balance,Match,Rods (total) spread,,,,,0.3 g,,recorded,
+Crank balance,Match,Reciprocating sets spread,,,,,1.1 g,,recorded,
+Crank balance,Flag,Missing bearing weights,,,,,,,FAIL,"Weigh the rod bearing shells (both halves). They spin with the crank, so they count fully in the bobweight."
+Crank balance,Flag,Pistons out of tolerance,,,,,,,FAIL,"Spread 0.9 g (heaviest #5 412.6 g, lightest #1 411.7 g); the spec allows 0.5 g. Match the heavy one before balancing."

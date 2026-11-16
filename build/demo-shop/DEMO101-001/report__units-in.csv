@@ -904,3 +904,15 @@ Engine math,Input,Piston dish (+) / dome (−) volume,,,,,,,missing,add Rotating
 Engine math,Input,"Piston top land volume (above top ring, below piston deck)",,,,,,,missing,add Rotating assembly › Piston › top_land_cc (not on this record)
 Engine math,Input,"Piston net volume, poured",,,,,,,missing,add Rotating assembly › Piston › piston_net_volume_cc (not on this record)
 Engine math,Input,Design rpm,,,,,,,missing,add engine_configuration › design_rpm (not on this record) (or enter an rpm below)
+Crank balance,Weight,Piston (bare),,,,,,,missing,piston (bare) (Piston line item or weigh sheet)
+Crank balance,Weight,Wrist pin,,,,,,,missing,wrist pin (Piston line item or weigh sheet)
+Crank balance,Weight,Pin locks (pair),,,,,,,missing,pin locks (pair) (Piston line item or weigh sheet)
+Crank balance,Weight,Ring set,,,,,,,missing,ring set (Ring pack line item or weigh sheet)
+Crank balance,Weight,Rod small end,,,,,,,missing,rod small end (Connecting rod line item or weigh sheet)
+Crank balance,Weight,Rod big end,,,,,,,missing,rod big end (Connecting rod line item or weigh sheet)
+Crank balance,Weight,Rod bearing shells (pair),,,,,,,missing,rod bearing shell weights
+Crank balance,Result,"Rotating, per rod",,,,,,,missing,big end + bearing shells
+Crank balance,Result,"Reciprocating, per cylinder",,,,,,,missing,small end + piston + pin + locks + rings
+Crank balance,Result,Bobweight,,,,,,,missing,missing: piston (bare) (Piston line item or weigh sheet); wrist pin (Piston line item or weigh sheet); pin locks (pair) (Piston line item or weigh sheet); ring set (Ring pack line item or weigh sheet); rod small end (Connecting rod line item or weigh sheet); rod big end (Connecting rod line item or weigh sheet); rod bearing shell weights
+Crank balance,Result,Crank prepped bobweight,,,,,"1,710.0 g",,spec,
+Crank balance,Flag,Missing bearing weights,,,,,,,FAIL,"Weigh the rod bearing shells (both halves). They spin with the crank, so they count fully in the bobweight."
